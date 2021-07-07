@@ -251,7 +251,7 @@ footer {
     padding-right: 30px;
   }
 
-  .first-bar-items li a{
+  .first-bar-items li a {
     text-decoration: none;
     color: #fff;
     padding-right: 20px;
@@ -267,7 +267,7 @@ footer {
     color: bisque;
   }
 
-/* hide menu */
+  /* hide menu */
   .nav-bar {
     display: none;
   }
@@ -288,7 +288,7 @@ footer {
   .nav-bar-list1 li a:hover {
     color: #ec5242;
   }
-  
+
   .intro {
     align-items: center;
   }

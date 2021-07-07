@@ -1,13 +1,13 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -166,6 +166,7 @@ h1 {
 
 .join {
   cursor: pointer;
+  color: #fff;
   border: 1px solid #ec5242;
   background-color: #ec5242;
   width: 50%;
@@ -177,12 +178,6 @@ h1 {
 
 .join1 {
   display: none;
-}
-
-.join {
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
 }
 
 .join:hover {
