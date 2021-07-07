@@ -1,40 +1,40 @@
-let moreSpeaker = [
+const moreSpeaker = [
   {
     imageUrl: `images/kumbo9a (2).jpg`,
     imageAlt: `Portrait of Kumbo`,
-    name:`Kumbo`,
-    description:`Zambian script and songwriter`,
-    speakersLines:`Kumbo is a young Zambian script and songwriter, well known for his single "Luapula nights`, 
+    name: `Kumbo`,
+    description: `Zambian script and songwriter`,
+    speakersLines: `Kumbo is a young Zambian script and songwriter, well known for his single "Luapula nights"`,
   },
   {
     imageUrl: `images/jk-rowling.jpg`,
     imageAlt: `Portrait of J.K Rowling`,
-    name:`J.K Rowling`,
-    description:`British author`,
-    speakersLines:`J.K. Rowling is the author of the much-loved series of seven Harry Potter novels, originally published
-    between 1997 and 2007`, 
+    name: `J.K Rowling`,
+    description: `British author`,
+    speakersLines: `J.K. Rowling is the author of the much-loved series of seven Harry Potter novels, originally published
+    between 1997 and 2007`,
   },
   {
     imageUrl: `images/montellfish.jpg`,
     imageAlt: `Portrait of Montell Fish`,
-    name:`Montell Fish`,
-    description:`Christian creative`,
-    speakersLines:`Montell Fish is passionate about making music/art and glorifying God through it.`, 
+    name: `Montell Fish`,
+    description: `Christian creative`,
+    speakersLines: `Montell Fish is passionate about making music/art and glorifying God through it.`,
   },
   {
     imageUrl: `images/Miles Carter.jpg`,
     imageAlt: `Portrait of Miles Carter`,
-    name:`Miles Carter`,
-    description:`A gifted poet, composer, and orator`,
-    speakersLines:`Carter creates an emotionally raw and immersive experience that deep dives into the mental, emotional, and
-    spiritual aspects of the human experience.`, 
+    name: `Miles Carter`,
+    description: `A gifted poet, composer, and orator`,
+    speakersLines: `Carter creates an emotionally raw and immersive experience that deep dives into the mental, emotional, and
+    spiritual aspects of the human experience.`,
   },
 ];
 
 const firstSpeakersContainer = document.getElementsByClassName('speakers')[0];
 
 function firstSpeakers() {
-  let htmlText = `<article class="speaker">
+  const htmlText = `<article class="speaker">
                     <div>
                       <img src="images/Paulo.jpg" alt="Portrait Paulo Coelho">
                     </div>
@@ -66,7 +66,7 @@ function firstSpeakers() {
 }
 
 function otherSpeakers() {
-  let htmlText = `<article class="speaker otherSpeaker hideSpeaker">
+  const htmlText = `<article class="speaker otherSpeaker hideSpeaker">
                     <div>
                       <img src="${moreSpeaker[0].imageUrl}" alt="${moreSpeaker[0].imageAlt}">
                     </div>
@@ -133,17 +133,17 @@ const moreSpeakers = document.querySelectorAll('.otherSpeaker');
 let hide = true;
 
 seeMore.addEventListener('click', () => {
-  if(hide === true) {
-    moreSpeakers.forEach(speaker => {
-      speaker.classList.add('hideSpeaker')
-    })
+  if (hide === true) {
+    moreSpeakers.forEach((speaker) => {
+      speaker.classList.add('hideSpeaker');
+    });
     hide = false;
   } else {
-    moreSpeakers.forEach(speaker => {
-      speaker.classList.remove('hideSpeaker')
-    })
+    moreSpeakers.forEach((speaker) => {
+      speaker.classList.remove('hideSpeaker');
+    });
     seeMore.innerHTML = 'See less';
     hide = true;
     seeMore.innerHTML = 'See more';
   }
-})
+});

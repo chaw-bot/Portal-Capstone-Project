@@ -2,7 +2,7 @@
 
 > This is a conference page for a literary art conference to be held on 08th july 2021.
 
-You can [click here]() to veiw the live version of the conference page. 
+You can [click here](https://chaw-bot.github.io/Portal-Capstone-Project/) to veiw the live version of the conference page. 
 
 Below, I have attached screenshots of the: 
 

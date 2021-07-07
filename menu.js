@@ -1,7 +1,6 @@
 const nav = document.querySelector('.nav-bar');
 const menuIcon = document.querySelector('.menu i');
 const navList = document.querySelector('.nav-bar-list');
-const menuBtn = document.querySelector('.menu');
 
 function openMenu() {
   nav.classList.add('.nav-bar');
@@ -14,7 +13,7 @@ function openMenu() {
 
 function closeMenu() {
   nav.classList.remove('.nav-bar');
-  nav.style.background= 'transparent';
+  nav.style.background = 'transparent';
   menuIcon.classList.replace('fa-times', 'fa-bars');
   menuIcon.style.float = 'left';
   menuIcon.style.color = '#272a31';
