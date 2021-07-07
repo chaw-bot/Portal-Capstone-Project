@@ -307,6 +307,9 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     letter-spacing: 1.5;
+    line-height: 50px;
+    font-weight: 900;
+    width: 100%;
   }
 
   .article1 {
