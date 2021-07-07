@@ -4,7 +4,7 @@ const navList = document.querySelector('.nav-bar-list');
 
 function openMenu() {
   nav.classList.add('.nav-bar');
-  nav.style.background= '#272a31';
+  nav.style.background = '#272a31';
   menuIcon.classList.replace('fa-bars', 'fa-times');
   menuIcon.style.float = 'right';
   menuIcon.style.color = '#fff';

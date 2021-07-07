@@ -120,6 +120,12 @@ h1 {
   padding-bottom: 30px;
 }
 
+footer img {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
+
 .finalLogo {
   padding-bottom: 30px;
   text-align: center;
@@ -128,7 +134,13 @@ h1 {
 .finalLogo img {
   border: 2px solid #d3d3d3;
   width: 80%;
-} 
+}
+
+.heading-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .aboutLogo .heading-group {
   padding-bottom: 30px;
@@ -137,12 +149,6 @@ h1 {
 .partner {
   background-color: #272a31;
   height: 100%;
-}
-  
-.heading-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .heading-line {
@@ -169,13 +175,12 @@ h1 {
 .conferenceImage {
   display: flex;
   flex-direction: column;
-  text-align: -webkit-center;
+  text-align: center;
 }
 
 .conferenceImage1 {
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
 
 .image1 {
@@ -200,7 +205,7 @@ h1 {
   width: 80%;
   opacity: 1;
   display: block;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
@@ -211,7 +216,7 @@ h1 {
 .partner .heading-group {
   padding-bottom: 50px;
 }
-  
+
 .partner .heading1 {
   color: #fff;
   font-size: 32px;
@@ -227,13 +232,7 @@ h1 {
   width: 50%;
   height: 70%;
 }
-  
-footer img {
-  border-radius: 50%;
-  width: 10%;
-  height: 10%;
-}
-  
+
 footer {
   display: flex;
   align-items: center;
@@ -251,41 +250,41 @@ footer {
     padding-bottom: 10px;
     padding-right: 30px;
   }
-  
+
   .first-bar-items li a{
     text-decoration: none;
     color: #fff;
     padding-right: 20px;
   }
-  
+
+  .nav-bar-list1 li a {
+    color: #272a31;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   .first-bar-items li a:hover {
     color: bisque;
   }
-  
-  /* hide menu */
+
+/* hide menu */
   .nav-bar {
     display: none;
   }
-  
+
   .nav-bar-list1 {
     display: flex;
     justify-content: space-between;
     padding-right: 40px;
   }
-  
+
   .logo img {
     padding-left: 30px;
     padding-top: 5px;
     border-radius: 50%;
     width: 20%;
   }
-  
-  .nav-bar-list1 li a {
-    color: #272a31;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+
   .nav-bar-list1 li a:hover {
     color: #ec5242;
   }
@@ -309,11 +308,10 @@ footer {
   .intro h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-  
+
   .intro h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 52px;
-    letter-spacing: 1.5;
   }
 
   .aboutLogo {
