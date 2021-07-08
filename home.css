@@ -242,6 +242,55 @@ h1 {
   height: 50px;
 }
 
+.partner {
+  background-color: #272a31;
+  height: 100%;
+}
+
+.heading-line {
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
+  width: 50px;
+  margin-top: 20px;
+}
+
+.heading1 {
+  padding-top: 30px;
+}
+
+.partner .heading-group {
+  padding-bottom: 50px;
+}
+
+.partner .heading1 {
+  color: #fff;
+  font-size: 32px;
+  height: 100%;
+}
+
+.partner ul {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.partner li img {
+  width: 50%;
+  height: 70%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+footer img {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
+
 @media only screen and (min-width: 768px) {
   .first-bar-items {
     display: flex;
