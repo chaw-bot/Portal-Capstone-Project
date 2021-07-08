@@ -54,7 +54,7 @@ $ git clone https://github.com/chaw-bot/Portal-Capstone-Project/
 - Twitter: [@chaw36422087](https://twitter.com/chaw36422087)
 - LinkedIn[Chawanzi Ng'uni](https://www.linkedin.com/in/chawanzi-ng-uni-449328212/)
 
-## Acknowledgement
+## 👏 Acknowledgement 🥇
 This page design was an inspiration from the original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 🤝 Contributing
