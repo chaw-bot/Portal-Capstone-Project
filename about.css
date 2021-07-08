@@ -48,7 +48,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #272a31;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
 }
 
@@ -167,9 +167,15 @@ footer img {
   padding-top: 30px;
 }
 
+.previousWords {
+  display: flex;
+  justify-content: center;
+}
+
 .previous div p {
   text-align: center;
   padding-top: 30px;
+  width: 80%;
 }
 
 .conferenceImage {
@@ -179,6 +185,7 @@ footer img {
 }
 
 .conferenceImage1 {
+  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -186,17 +193,38 @@ footer img {
 .image1 {
   width: 80%;
   opacity: 1;
-  display: block;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .conferenceImage1:hover .image1 {
   opacity: 0.3;
+}
+
+.conferenceImage1:hover .middle {
+  opacity: 0.5;
+}
+
+.text {
   background-color: #ec5242;
+  color: #fff;
+  font-size: 32px;
+  padding: 50px 50px
 }
 
 .conferenceImage2 {
+  position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -204,13 +232,34 @@ footer img {
 .image2 {
   width: 80%;
   opacity: 1;
-  display: block;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
+.middle1 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .conferenceImage2:hover .image2 {
   opacity: 0.3;
+}
+
+.conferenceImage2:hover .middle1 {
+  opacity: 0.5;
+}
+
+.text1 {
+  background-color: #ec5242;
+  color: #fff;
+  font-size: 32px;
+  padding: 50px 50px
 }
 
 .partner .heading-group {
