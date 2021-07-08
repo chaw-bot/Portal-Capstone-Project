@@ -41,8 +41,11 @@ To get a local copy up and running follow these simple example steps.
 Clone this [GitHub Repo](https://github.com/chaw-bot/Portal-Capstone-Project/) to your computer on yourFolder by typing these commands in the terminal or download as a Zip file and extract.
 
 $ mkdir yourFolder
+
 $ cd yourFolder
+
 $ git clone https://github.com/chaw-bot/Portal-Capstone-Project/
+
 ## Authors
 
 👤 **Author**
@@ -51,6 +54,8 @@ $ git clone https://github.com/chaw-bot/Portal-Capstone-Project/
 - Twitter: [@chaw36422087](https://twitter.com/chaw36422087)
 - LinkedIn[Chawanzi Ng'uni](https://www.linkedin.com/in/chawanzi-ng-uni-449328212/)
 
+## Acknowledgement
+This page design was an inspiration from the original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 🤝 Contributing
 
