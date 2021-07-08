@@ -92,7 +92,6 @@ h1 {
   font-size: 35px;
   line-height: 50px;
   font-weight: 900;
-  width: 60%;
   letter-spacing: 0.5px;
   font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -363,6 +362,7 @@ footer {
   .intro h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 52px;
+    width: 60%
   }
 
   .aboutLogo {
