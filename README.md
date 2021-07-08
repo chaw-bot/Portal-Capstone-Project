@@ -30,19 +30,19 @@ To this project I have added :
 - CSS
 - JavaScript
 
-## Getting Started
+## Getting started
+To get a local copy up and running follow these simple example steps.
 
-- Create a new repo
-- Add a feature branch to the repo
-- Clone the repo on to my computer
-- Add linters
-- Add a git ignore file
-- Add HTML & CSS files for the Home page
-- Add HTML & CSS files for the About page
-- Add a JavaScript file for the menu
-- Add a JavaScript file for the speakers which are created dynamically
-- Open a pull request
+### Prerequisites
+- Gitbash installed to navigate between the branches.
+- A preferred text editor for example VS Code.
 
+### Install
+Clone this [GitHub Repo](https://github.com/chaw-bot/Portal-Capstone-Project/) to your computer on yourFolder by typing these commands in the terminal or download as a Zip file and extract.
+
+$ mkdir yourFolder
+$ cd yourFolder
+$ git clone https://github.com/chaw-bot/Portal-Capstone-Project/
 ## Authors
 
 👤 **Author**
