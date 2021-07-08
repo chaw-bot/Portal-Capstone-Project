@@ -48,7 +48,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #272a31;
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
 }
 
@@ -69,12 +69,12 @@ html {
 .intro {
   display: flex;
   flex-direction: column;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
   background-image: url("images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 90vh;
   justify-content: center;
   text-align: center;
 }

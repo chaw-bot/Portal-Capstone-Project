@@ -48,7 +48,7 @@ html {
   align-items: center;
   justify-content: center;
   background-color: #272a31;
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
 }
 
@@ -70,18 +70,18 @@ html {
 .intro {
   display: flex;
   flex-direction: column;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
   background-image: url("images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 90vh;
   justify-content: center;
 }
 
 .intro h2,
 h1 {
-  background: url("images/font.jpg");
+  background: url("images/font1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -91,10 +91,16 @@ h1 {
 
 .intro h2 {
   padding-bottom: 10px;
+  font-family: "Crete Round", serif;
+  letter-spacing: 0.37px;
 }
 
 .intro h1 {
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 32px;
+  width: 100%;
+  letter-spacing: 0.5px;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .article1 {
@@ -106,6 +112,7 @@ h1 {
 
 .date {
   color: #44464d;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* main program */
@@ -201,6 +208,24 @@ h1 {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-column-gap: 20px;
+}
+
+.bgimage {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.first {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.second {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .speakers-line {
@@ -341,15 +366,17 @@ footer img {
   }
 
   .intro h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Crete Round", serif;
+    letter-spacing: 0.37px;
   }
 
   .intro h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     line-height: 50px;
     font-weight: 900;
     width: 100%;
+    letter-spacing: 0.5px;
+    font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .article1 {
@@ -361,6 +388,12 @@ footer img {
     column-gap: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    height: 50vh;
+    align-items: center;
+  }
+
+  .main-program-items div p {
+    text-align: center;
   }
 
   .main-program-items {
@@ -370,6 +403,7 @@ footer img {
     background-color: #44464d;
     align-items: center;
     padding: 10px;
+    justify-content: space-around;
   }
 
   .join {
@@ -382,6 +416,10 @@ footer img {
     padding-top: 10px;
     padding-bottom: 30px;
     color: #fff;
+  }
+
+  .join1:hover {
+    color: #ec5242;
   }
 
   .more {
@@ -398,5 +436,13 @@ footer img {
     align-items: center;
     grid-template-columns: 40% 40%;
     column-gap: 10px;
+  }
+
+  .speakerDescription {
+    width: 90%;
+  }
+
+  .partner {
+    height: 80vh;
   }
 }
