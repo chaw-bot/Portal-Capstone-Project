@@ -229,7 +229,7 @@ footer img {
   background-color: #ec5242;
   color: #fff;
   font-size: 32px;
-  padding: 50px 50px
+  padding: 50px 50px;
 }
 
 .conferenceImage2 {
@@ -268,7 +268,7 @@ footer img {
   background-color: #ec5242;
   color: #fff;
   font-size: 32px;
-  padding: 50px 50px
+  padding: 50px 50px;
 }
 
 .partner .heading-group {
@@ -336,13 +336,6 @@ footer {
     padding-right: 40px;
   }
 
-  .logo img {
-    padding-left: 30px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 20%;
-  }
-
   .nav-bar-list1 li a:hover {
     color: #ec5242;
   }
@@ -398,6 +391,10 @@ footer {
 
   /* logo animation */
   .logo img {
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 20%;
     animation: bounce-in-right 4s ease 2;
   }
 
@@ -406,6 +403,7 @@ footer {
       opacity: 0;
       transform: translateX(100px);
     }
+
     60% {
       opacity: 1;
       transform: translateX(-30px);

@@ -355,13 +355,6 @@ footer img {
     padding-right: 40px;
   }
 
-  .logo img {
-    padding-left: 30px;
-    padding-top: 5px;
-    border-radius: 50%;
-    width: 20%;
-  }
-
   .nav-bar-list1 li a:hover {
     color: #ec5242;
   }
@@ -448,6 +441,10 @@ footer img {
 
   /* logo animation */
   .logo img {
+    padding-left: 30px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 20%;
     animation: bounce-in-right 4s ease 2;
   }
 
@@ -456,6 +453,7 @@ footer img {
       opacity: 0;
       transform: translateX(100px);
     }
+
     60% {
       opacity: 1;
       transform: translateX(-30px);
