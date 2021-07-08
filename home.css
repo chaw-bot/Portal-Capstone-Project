@@ -237,6 +237,12 @@ h1 {
   margin-bottom: 10px;
 }
 
+footer img {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+}
+
 .speakers img {
   width: 100%;
   height: 80%;
@@ -273,17 +279,6 @@ h1 {
   height: 100%;
 }
 
-.heading-line {
-  background-color: #ec5242;
-  border: 1px solid #ec5242;
-  width: 50px;
-  margin-top: 20px;
-}
-
-.heading1 {
-  padding-top: 30px;
-}
-
 .partner .heading-group {
   padding-bottom: 50px;
 }
@@ -309,12 +304,6 @@ footer {
   align-items: center;
   justify-content: space-around;
   padding: 50px;
-}
-
-footer img {
-  border-radius: 50%;
-  width: 10%;
-  height: 10%;
 }
 
 @media only screen and (min-width: 768px) {
