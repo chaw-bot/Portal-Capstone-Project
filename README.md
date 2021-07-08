@@ -2,6 +2,8 @@
 
 > This is a conference page for a literary art conference to be held on 08th july 2021.
 
+I have attached the link to the [Loom Video](https://www.loom.com/share/478d2b9c4f91495da5956eec25943c07) showing how the video works.
+
 You can [click here](https://chaw-bot.github.io/Portal-Capstone-Project/) to veiw the live version of the conference page. 
 
 Below, I have attached screenshots of the: 
@@ -32,9 +34,13 @@ To this project I have added :
 
 - Create a new repo
 - Add a feature branch to the repo
+- Clone the repo on to my computer
 - Add linters
 - Add a git ignore file
-- Add HTML & CSS files
+- Add HTML & CSS files for the Home page
+- Add HTML & CSS files for the About page
+- Add a JavaScript file for the menu
+- Add a JavaScript file for the speakers which are created dynamically
 - Open a pull request
 
 ## Authors

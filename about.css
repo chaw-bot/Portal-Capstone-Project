@@ -65,6 +65,10 @@ html {
   line-height: 50px;
 }
 
+.nav-bar-item:hover {
+  color: antiquewhite;
+}
+
 /* intro section */
 .intro {
   display: flex;
@@ -362,7 +366,7 @@ footer {
   .intro h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 52px;
-    width: 60%
+    width: 60%;
   }
 
   .aboutLogo {

@@ -65,6 +65,10 @@ html {
   line-height: 50px;
 }
 
+.nav-bar-item:hover {
+  color: antiquewhite;
+}
+
 /* intro section */
 
 .intro {
