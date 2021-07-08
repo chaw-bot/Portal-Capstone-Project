@@ -88,6 +88,15 @@ h1 {
   padding-bottom: 10px;
 }
 
+.intro h1 {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 900;
+  width: 60%;
+  letter-spacing: 0.5px;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 .article1 {
   display: flex;
   border: 1px solid #d3d3d3;
