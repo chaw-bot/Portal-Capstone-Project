@@ -43,22 +43,20 @@
           <li><a href="about.html" class="nav-bar-item" onclick="closeMenu();">About</a></li>
           <li><a href="#program" class="nav-bar-item" onclick="closeMenu();">Program</a></li>
           <li><a href="#join" class="nav-bar-item" onclick="closeMenu();">Join</a></li>
-          <li><a href="#" class="nav-bar-item" onclick="closeMenu();">Partners</a></li>
-          <li><a href="#" class="nav-bar-item" onclick="closeMenu();">News</a></li>
-          <li><a href="#" class="nav-bar-item" onclick="closeMenu();">Contact</a></li>
+          <li><a href="#speakers" class="nav-bar-item" onclick="closeMenu();">Speakers</a></li>
+          <li><a href="#partners" class="nav-bar-item" onclick="closeMenu();">Partners</a></li>
         </ul>
       </div>
 
       <ul class="nav-bar-list1">
         <li>
-          <a  href="home.html" class="logo"><img src="images/finallogo.jpg" alt="logo"></a>
+          <a href="index.html" class="logo"><img src="images/finallogo.jpg" alt="logo"></a>
         </li>
         <li><a href="about.html" class="nav-bar-item">About</a></li>
         <li><a href="#program" class="nav-bar-item">Program</a></li>
         <li><a href="#join" class="nav-bar-item">Join</a></li>
-        <li><a href="#" class="nav-bar-item">Partners</a></li>
-        <li><a href="#" class="nav-bar-item">News</a></li>
-        <li><a href="#" class="nav-bar-item">Contact</a></li>
+        <li><a href="#speakers" class="nav-bar-item">Speakers</a></li>
+        <li><a href="#partners" class="nav-bar-item">Partners</a></li>
       </ul>
     </nav>
   </header>
@@ -73,8 +71,9 @@
       <article class="article1">
         <p>
           <q>
-            When we strive to become better than we are,
-            everything around us becomes better too.
+            I have seen many storms in my life. Most storms have caught me by surprise, so I had to learn very quickly
+            to look further and understand that I am not capable of controlling the weather, to exercise the art of
+            patience and to respect the fury of nature.
           </q> - Paulo Coelho
         </p>
       </article>
@@ -174,11 +173,11 @@
         </article>
       </div>
 
-      <button class="join" type="button" id="join"><a href="#">Join Conference</a></button>
+      <button class="join" type="button" id="join">Join Conference</button>
       <a class="join1" href="#">SEE THE ENTIRE PROGRAM</a>
     </section>
 
-    <section class="speaker-section">
+    <section class="speaker-section" id="speakers">
       <div class="heading-group">
         <h2 class="heading1">Featured Speakers</h2>
         <hr class="heading-line">
@@ -191,7 +190,28 @@
         <button class="more">See more <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
       </div>
     </section>
+
+    <section class="partner" id="partners">
+      <div class="heading-group">
+        <h3 class="heading1">Partners</h3>
+        <hr class="heading-line">
+      </div>
+
+      <ul>
+        <li><img src="images/logoestamuycool.png" alt="estamuy cool logo"></li>
+        <li><img src="images/mask_creativa_logo.png" alt="mask creative logo"></li>
+      </ul>
+    </section>
   </main>
+
+  <footer>
+    <img src="images/finallogo.jpg" alt="logo">
+
+    <div>
+      <p>Literary Arts Conference</p>
+      <p><i class="fa fa-copyright" aria-hidden="true"></i>2021.All rights reserved</p>
+    </div>
+  </footer>
   <script src="menu.js"></script>
   <script src="speakers.js"></script>
 </body>
