@@ -138,18 +138,18 @@ const seeMore = document.querySelector('.more');
 const moreSpeakers = document.querySelectorAll('.otherSpeaker');
 let hide = true;
 
-seeMore.addEventListener('click', () => {
+seeMore.addEventListener('click', (e) => {
   if (hide === true) {
     moreSpeakers.forEach((speaker) => {
       speaker.classList.add('hideSpeaker');
     });
     hide = false;
+    e.target.innerText = 'See more';
   } else {
     moreSpeakers.forEach((speaker) => {
       speaker.classList.remove('hideSpeaker');
     });
-    seeMore.innerHTML = 'See less';
     hide = true;
-    seeMore.innerHTML = 'See more';
+    e.target.innerText = 'See less';
   }
 });
